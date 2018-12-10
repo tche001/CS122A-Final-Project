@@ -8,7 +8,7 @@ import time
 GPIO.setmode(GPIO.BCM)
 
 #Cascade Settings
-faceCascade = cv2.CascadeClassifier('/home/pi/Desktop/122/py_servo_facetracker/haarcascade_frontalface_alt.xml')
+faceCascade = cv2.CascadeClassifier('/home/pi/Desktop/haarcascade_frontalface_alt.xml')
 
 #ServoBlaster Settings
 panDegrees = 1 # Pan degree change
